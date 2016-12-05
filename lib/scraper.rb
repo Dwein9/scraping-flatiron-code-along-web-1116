@@ -32,7 +32,6 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
-    binding.pry
   end
 
   def make_courses
@@ -44,3 +43,5 @@ class Scraper
     end
   end
 end
+
+Scraper.new.print_courses
